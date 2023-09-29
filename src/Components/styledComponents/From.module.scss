@@ -1,0 +1,32 @@
+.signUp{
+     margin-top: 1rem;
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     gap: 1rem;
+
+     .signUpButtons{
+         display: flex;
+         align-items: center;
+         padding: 0.3rem 1rem;
+         border: 1px solid gray;
+         border-radius: 3px;
+         gap: 5px;
+
+         &:hover{
+          cursor: pointer;
+     }
+         svg{
+          font-size: 1.3rem;
+       }
+     }
+}
+
+.faceBookIcon{
+     color: white;
+}
+
+
+
+
+
